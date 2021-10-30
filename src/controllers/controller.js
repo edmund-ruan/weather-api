@@ -10,7 +10,6 @@ require('dotenv').config();
 const axios = require("axios")
 const { response } = require("express")
 const API_KEY = process.env.WEATHER_API_KEY
-console.log(API_KEY)
 const Weather = require("../model/Weather")
 
 //below are callback files to router
