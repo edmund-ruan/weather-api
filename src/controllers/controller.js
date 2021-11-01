@@ -12,6 +12,11 @@ const { response } = require("express")
 const API_KEY = process.env.WEATHER_API_KEY
 const Weather = require("../model/Weather")
 
+
+xports.renderLoginPage = (req, res) => {
+    res.render("login")
+}
+
 //below are callback files to router
 exports.renderHomePage = (req, res) => {
     res.render("index")

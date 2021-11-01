@@ -7,7 +7,9 @@ const router = express.Router()
 
 const controller = require("./controllers/controller")
 
-router.get("/", controller.renderHomePage)
+router.get("/", controller.renderLoginPage)
+
+router.get("/weatherinput", controller.renderHomePage)
 
 //post request
 router.post("/", controller.getWeather)

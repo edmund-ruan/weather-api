@@ -23,7 +23,7 @@ app.set("view engine", "hbs")
 app.use("/", router)
 
 //call to local server
-app.listen(3001, () => {
-    console.log("The server is now running on Port 3000")
+app.listen(3002, () => {
+    console.log("The server is now running on Port 3002")
 })
 
