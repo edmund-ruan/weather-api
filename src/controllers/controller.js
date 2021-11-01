@@ -13,7 +13,7 @@ const API_KEY = process.env.WEATHER_API_KEY
 const Weather = require("../model/Weather")
 
 
-xports.renderLoginPage = (req, res) => {
+exports.renderLoginPage = (req, res) => {
     res.render("login")
 }
 
